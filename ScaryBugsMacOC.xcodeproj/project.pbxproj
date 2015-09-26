@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE8D45D41BB74D2800E70618 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D45D31BB74D2800E70618 /* AppDelegate.m */; };
+		FE8D45D71BB74D2800E70618 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D45D61BB74D2800E70618 /* main.m */; };
+		FE8D45D91BB74D2800E70618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8D45D81BB74D2800E70618 /* Assets.xcassets */; };
+		FE8D45DC1BB74D2800E70618 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8D45DA1BB74D2800E70618 /* MainMenu.xib */; };
+		FE8D45E71BB74D2800E70618 /* ScaryBugsMacOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D45E61BB74D2800E70618 /* ScaryBugsMacOCTests.m */; };
+		FE8D45F21BB74D2800E70618 /* ScaryBugsMacOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D45F11BB74D2800E70618 /* ScaryBugsMacOCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE8D45E31BB74D2800E70618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8D45C71BB74D2800E70618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8D45CE1BB74D2800E70618;
+			remoteInfo = ScaryBugsMacOC;
+		};
+		FE8D45EE1BB74D2800E70618 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE8D45C71BB74D2800E70618 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8D45CE1BB74D2800E70618;
+			remoteInfo = ScaryBugsMacOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE8D45CF1BB74D2800E70618 /* ScaryBugsMacOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugsMacOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8D45D21BB74D2800E70618 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE8D45D31BB74D2800E70618 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE8D45D61BB74D2800E70618 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE8D45D81BB74D2800E70618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE8D45DB1BB74D2800E70618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FE8D45DD1BB74D2800E70618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8D45E21BB74D2800E70618 /* ScaryBugsMacOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsMacOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8D45E61BB74D2800E70618 /* ScaryBugsMacOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsMacOCTests.m; sourceTree = "<group>"; };
+		FE8D45E81BB74D2800E70618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8D45ED1BB74D2800E70618 /* ScaryBugsMacOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsMacOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8D45F11BB74D2800E70618 /* ScaryBugsMacOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsMacOCUITests.m; sourceTree = "<group>"; };
+		FE8D45F31BB74D2800E70618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE8D45CC1BB74D2800E70618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8D45DF1BB74D2800E70618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8D45EA1BB74D2800E70618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE8D45C61BB74D2800E70618 = {
+			isa = PBXGroup;
+			children = (
+				FE8D45D11BB74D2800E70618 /* ScaryBugsMacOC */,
+				FE8D45E51BB74D2800E70618 /* ScaryBugsMacOCTests */,
+				FE8D45F01BB74D2800E70618 /* ScaryBugsMacOCUITests */,
+				FE8D45D01BB74D2800E70618 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE8D45D01BB74D2800E70618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE8D45CF1BB74D2800E70618 /* ScaryBugsMacOC.app */,
+				FE8D45E21BB74D2800E70618 /* ScaryBugsMacOCTests.xctest */,
+				FE8D45ED1BB74D2800E70618 /* ScaryBugsMacOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE8D45D11BB74D2800E70618 /* ScaryBugsMacOC */ = {
+			isa = PBXGroup;
+			children = (
+				FE8D45D21BB74D2800E70618 /* AppDelegate.h */,
+				FE8D45D31BB74D2800E70618 /* AppDelegate.m */,
+				FE8D45D81BB74D2800E70618 /* Assets.xcassets */,
+				FE8D45DA1BB74D2800E70618 /* MainMenu.xib */,
+				FE8D45DD1BB74D2800E70618 /* Info.plist */,
+				FE8D45D51BB74D2800E70618 /* Supporting Files */,
+			);
+			path = ScaryBugsMacOC;
+			sourceTree = "<group>";
+		};
+		FE8D45D51BB74D2800E70618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE8D45D61BB74D2800E70618 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE8D45E51BB74D2800E70618 /* ScaryBugsMacOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8D45E61BB74D2800E70618 /* ScaryBugsMacOCTests.m */,
+				FE8D45E81BB74D2800E70618 /* Info.plist */,
+			);
+			path = ScaryBugsMacOCTests;
+			sourceTree = "<group>";
+		};
+		FE8D45F01BB74D2800E70618 /* ScaryBugsMacOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8D45F11BB74D2800E70618 /* ScaryBugsMacOCUITests.m */,
+				FE8D45F31BB74D2800E70618 /* Info.plist */,
+			);
+			path = ScaryBugsMacOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE8D45CE1BB74D2800E70618 /* ScaryBugsMacOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8D45F61BB74D2800E70618 /* Build configuration list for PBXNativeTarget "ScaryBugsMacOC" */;
+			buildPhases = (
+				FE8D45CB1BB74D2800E70618 /* Sources */,
+				FE8D45CC1BB74D2800E70618 /* Frameworks */,
+				FE8D45CD1BB74D2800E70618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScaryBugsMacOC;
+			productName = ScaryBugsMacOC;
+			productReference = FE8D45CF1BB74D2800E70618 /* ScaryBugsMacOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE8D45E11BB74D2800E70618 /* ScaryBugsMacOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8D45F91BB74D2800E70618 /* Build configuration list for PBXNativeTarget "ScaryBugsMacOCTests" */;
+			buildPhases = (
+				FE8D45DE1BB74D2800E70618 /* Sources */,
+				FE8D45DF1BB74D2800E70618 /* Frameworks */,
+				FE8D45E01BB74D2800E70618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8D45E41BB74D2800E70618 /* PBXTargetDependency */,
+			);
+			name = ScaryBugsMacOCTests;
+			productName = ScaryBugsMacOCTests;
+			productReference = FE8D45E21BB74D2800E70618 /* ScaryBugsMacOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE8D45EC1BB74D2800E70618 /* ScaryBugsMacOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE8D45FC1BB74D2800E70618 /* Build configuration list for PBXNativeTarget "ScaryBugsMacOCUITests" */;
+			buildPhases = (
+				FE8D45E91BB74D2800E70618 /* Sources */,
+				FE8D45EA1BB74D2800E70618 /* Frameworks */,
+				FE8D45EB1BB74D2800E70618 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE8D45EF1BB74D2800E70618 /* PBXTargetDependency */,
+			);
+			name = ScaryBugsMacOCUITests;
+			productName = ScaryBugsMacOCUITests;
+			productReference = FE8D45ED1BB74D2800E70618 /* ScaryBugsMacOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE8D45C71BB74D2800E70618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Leo Yu";
+				TargetAttributes = {
+					FE8D45CE1BB74D2800E70618 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FE8D45E11BB74D2800E70618 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FE8D45CE1BB74D2800E70618;
+					};
+					FE8D45EC1BB74D2800E70618 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FE8D45CE1BB74D2800E70618;
+					};
+				};
+			};
+			buildConfigurationList = FE8D45CA1BB74D2800E70618 /* Build configuration list for PBXProject "ScaryBugsMacOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE8D45C61BB74D2800E70618;
+			productRefGroup = FE8D45D01BB74D2800E70618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE8D45CE1BB74D2800E70618 /* ScaryBugsMacOC */,
+				FE8D45E11BB74D2800E70618 /* ScaryBugsMacOCTests */,
+				FE8D45EC1BB74D2800E70618 /* ScaryBugsMacOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE8D45CD1BB74D2800E70618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8D45D91BB74D2800E70618 /* Assets.xcassets in Resources */,
+				FE8D45DC1BB74D2800E70618 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8D45E01BB74D2800E70618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8D45EB1BB74D2800E70618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE8D45CB1BB74D2800E70618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8D45D71BB74D2800E70618 /* main.m in Sources */,
+				FE8D45D41BB74D2800E70618 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8D45DE1BB74D2800E70618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8D45E71BB74D2800E70618 /* ScaryBugsMacOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE8D45E91BB74D2800E70618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE8D45F21BB74D2800E70618 /* ScaryBugsMacOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE8D45E41BB74D2800E70618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8D45CE1BB74D2800E70618 /* ScaryBugsMacOC */;
+			targetProxy = FE8D45E31BB74D2800E70618 /* PBXContainerItemProxy */;
+		};
+		FE8D45EF1BB74D2800E70618 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8D45CE1BB74D2800E70618 /* ScaryBugsMacOC */;
+			targetProxy = FE8D45EE1BB74D2800E70618 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE8D45DA1BB74D2800E70618 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE8D45DB1BB74D2800E70618 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE8D45F41BB74D2800E70618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FE8D45F51BB74D2800E70618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FE8D45F71BB74D2800E70618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScaryBugsMacOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoyu.ScaryBugsMacOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FE8D45F81BB74D2800E70618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScaryBugsMacOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoyu.ScaryBugsMacOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FE8D45FA1BB74D2800E70618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScaryBugsMacOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoyu.ScaryBugsMacOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaryBugsMacOC.app/Contents/MacOS/ScaryBugsMacOC";
+			};
+			name = Debug;
+		};
+		FE8D45FB1BB74D2800E70618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScaryBugsMacOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoyu.ScaryBugsMacOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScaryBugsMacOC.app/Contents/MacOS/ScaryBugsMacOC";
+			};
+			name = Release;
+		};
+		FE8D45FD1BB74D2800E70618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScaryBugsMacOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoyu.ScaryBugsMacOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScaryBugsMacOC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FE8D45FE1BB74D2800E70618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ScaryBugsMacOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leoyu.ScaryBugsMacOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ScaryBugsMacOC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE8D45CA1BB74D2800E70618 /* Build configuration list for PBXProject "ScaryBugsMacOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8D45F41BB74D2800E70618 /* Debug */,
+				FE8D45F51BB74D2800E70618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE8D45F61BB74D2800E70618 /* Build configuration list for PBXNativeTarget "ScaryBugsMacOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8D45F71BB74D2800E70618 /* Debug */,
+				FE8D45F81BB74D2800E70618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE8D45F91BB74D2800E70618 /* Build configuration list for PBXNativeTarget "ScaryBugsMacOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8D45FA1BB74D2800E70618 /* Debug */,
+				FE8D45FB1BB74D2800E70618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FE8D45FC1BB74D2800E70618 /* Build configuration list for PBXNativeTarget "ScaryBugsMacOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE8D45FD1BB74D2800E70618 /* Debug */,
+				FE8D45FE1BB74D2800E70618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE8D45C71BB74D2800E70618 /* Project object */;
+}

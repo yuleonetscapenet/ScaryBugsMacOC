@@ -7,12 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE8442781BB862DD00914189 /* EDStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8442771BB862DD00914189 /* EDStarRating.m */; settings = {ASSET_TAGS = (); }; };
+		FE84427C1BB8630200914189 /* NSImage+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = FE84427B1BB8630200914189 /* NSImage+Extras.m */; settings = {ASSET_TAGS = (); }; };
+		FE8442811BB8632F00914189 /* shockedface2_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = FE84427E1BB8632F00914189 /* shockedface2_empty.png */; settings = {ASSET_TAGS = (); }; };
+		FE8442821BB8632F00914189 /* shockedface2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = FE84427F1BB8632F00914189 /* shockedface2_full.png */; settings = {ASSET_TAGS = (); }; };
+		FE8442831BB8632F00914189 /* shockedface2_half.png in Resources */ = {isa = PBXBuildFile; fileRef = FE8442801BB8632F00914189 /* shockedface2_half.png */; settings = {ASSET_TAGS = (); }; };
 		FE8D45D41BB74D2800E70618 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D45D31BB74D2800E70618 /* AppDelegate.m */; };
 		FE8D45D71BB74D2800E70618 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D45D61BB74D2800E70618 /* main.m */; };
 		FE8D45D91BB74D2800E70618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8D45D81BB74D2800E70618 /* Assets.xcassets */; };
 		FE8D45DC1BB74D2800E70618 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8D45DA1BB74D2800E70618 /* MainMenu.xib */; };
 		FE8D45E71BB74D2800E70618 /* ScaryBugsMacOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D45E61BB74D2800E70618 /* ScaryBugsMacOCTests.m */; };
 		FE8D45F21BB74D2800E70618 /* ScaryBugsMacOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D45F11BB74D2800E70618 /* ScaryBugsMacOCUITests.m */; };
+		FE8D46021BB7518800E70618 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE8D46001BB7518800E70618 /* MasterViewController.m */; settings = {ASSET_TAGS = (); }; };
+		FE8D46031BB7518800E70618 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE8D46011BB7518800E70618 /* MasterViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		FEE6A57D1BB7BCF7004CC6B2 /* ScaryBugData.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE6A57C1BB7BCF7004CC6B2 /* ScaryBugData.m */; settings = {ASSET_TAGS = (); }; };
+		FEE6A5801BB7BDBA004CC6B2 /* ScaryBugDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = FEE6A57F1BB7BDBA004CC6B2 /* ScaryBugDoc.m */; settings = {ASSET_TAGS = (); }; };
+		FEE6A5891BB7C692004CC6B2 /* centipede.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A5811BB7C692004CC6B2 /* centipede.jpg */; settings = {ASSET_TAGS = (); }; };
+		FEE6A58A1BB7C692004CC6B2 /* centipedeThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A5821BB7C692004CC6B2 /* centipedeThumb.jpg */; settings = {ASSET_TAGS = (); }; };
+		FEE6A58B1BB7C692004CC6B2 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A5831BB7C692004CC6B2 /* ladybug.jpg */; settings = {ASSET_TAGS = (); }; };
+		FEE6A58C1BB7C692004CC6B2 /* ladybugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A5841BB7C692004CC6B2 /* ladybugThumb.jpg */; settings = {ASSET_TAGS = (); }; };
+		FEE6A58D1BB7C692004CC6B2 /* potatoBug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A5851BB7C692004CC6B2 /* potatoBug.jpg */; settings = {ASSET_TAGS = (); }; };
+		FEE6A58E1BB7C692004CC6B2 /* potatoBugThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A5861BB7C692004CC6B2 /* potatoBugThumb.jpg */; settings = {ASSET_TAGS = (); }; };
+		FEE6A58F1BB7C692004CC6B2 /* wolfSpider.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A5871BB7C692004CC6B2 /* wolfSpider.jpg */; settings = {ASSET_TAGS = (); }; };
+		FEE6A5901BB7C692004CC6B2 /* wolfSpiderThumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A5881BB7C692004CC6B2 /* wolfSpiderThumb.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE8442761BB862DD00914189 /* EDStarRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDStarRating.h; sourceTree = "<group>"; };
+		FE8442771BB862DD00914189 /* EDStarRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDStarRating.m; sourceTree = "<group>"; };
+		FE84427A1BB8630200914189 /* NSImage+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+Extras.h"; sourceTree = "<group>"; };
+		FE84427B1BB8630200914189 /* NSImage+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+Extras.m"; sourceTree = "<group>"; };
+		FE84427E1BB8632F00914189 /* shockedface2_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_empty.png; sourceTree = "<group>"; };
+		FE84427F1BB8632F00914189 /* shockedface2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_full.png; sourceTree = "<group>"; };
+		FE8442801BB8632F00914189 /* shockedface2_half.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shockedface2_half.png; sourceTree = "<group>"; };
 		FE8D45CF1BB74D2800E70618 /* ScaryBugsMacOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScaryBugsMacOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8D45D21BB74D2800E70618 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE8D45D31BB74D2800E70618 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +70,21 @@
 		FE8D45ED1BB74D2800E70618 /* ScaryBugsMacOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScaryBugsMacOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8D45F11BB74D2800E70618 /* ScaryBugsMacOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScaryBugsMacOCUITests.m; sourceTree = "<group>"; };
 		FE8D45F31BB74D2800E70618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE8D45FF1BB7518800E70618 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterViewController.h; path = ../MasterViewController.h; sourceTree = "<group>"; };
+		FE8D46001BB7518800E70618 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterViewController.m; path = ../MasterViewController.m; sourceTree = "<group>"; };
+		FE8D46011BB7518800E70618 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MasterViewController.xib; path = ../MasterViewController.xib; sourceTree = "<group>"; };
+		FEE6A57B1BB7BCF7004CC6B2 /* ScaryBugData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugData.h; sourceTree = "<group>"; };
+		FEE6A57C1BB7BCF7004CC6B2 /* ScaryBugData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugData.m; sourceTree = "<group>"; };
+		FEE6A57E1BB7BDBA004CC6B2 /* ScaryBugDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaryBugDoc.h; sourceTree = "<group>"; };
+		FEE6A57F1BB7BDBA004CC6B2 /* ScaryBugDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaryBugDoc.m; sourceTree = "<group>"; };
+		FEE6A5811BB7C692004CC6B2 /* centipede.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipede.jpg; sourceTree = "<group>"; };
+		FEE6A5821BB7C692004CC6B2 /* centipedeThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = centipedeThumb.jpg; sourceTree = "<group>"; };
+		FEE6A5831BB7C692004CC6B2 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
+		FEE6A5841BB7C692004CC6B2 /* ladybugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybugThumb.jpg; sourceTree = "<group>"; };
+		FEE6A5851BB7C692004CC6B2 /* potatoBug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBug.jpg; sourceTree = "<group>"; };
+		FEE6A5861BB7C692004CC6B2 /* potatoBugThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = potatoBugThumb.jpg; sourceTree = "<group>"; };
+		FEE6A5871BB7C692004CC6B2 /* wolfSpider.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpider.jpg; sourceTree = "<group>"; };
+		FEE6A5881BB7C692004CC6B2 /* wolfSpiderThumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wolfSpiderThumb.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +112,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE8442751BB862AB00914189 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE8442761BB862DD00914189 /* EDStarRating.h */,
+				FE8442771BB862DD00914189 /* EDStarRating.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FE8442791BB862F300914189 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE84427A1BB8630200914189 /* NSImage+Extras.h */,
+				FE84427B1BB8630200914189 /* NSImage+Extras.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		FE84427D1BB8631C00914189 /* Art */ = {
+			isa = PBXGroup;
+			children = (
+				FE84427E1BB8632F00914189 /* shockedface2_empty.png */,
+				FE84427F1BB8632F00914189 /* shockedface2_full.png */,
+				FE8442801BB8632F00914189 /* shockedface2_half.png */,
+			);
+			name = Art;
+			sourceTree = "<group>";
+		};
 		FE8D45C61BB74D2800E70618 = {
 			isa = PBXGroup;
 			children = (
@@ -96,8 +163,19 @@
 		FE8D45D11BB74D2800E70618 /* ScaryBugsMacOC */ = {
 			isa = PBXGroup;
 			children = (
-				FE8D45D21BB74D2800E70618 /* AppDelegate.h */,
-				FE8D45D31BB74D2800E70618 /* AppDelegate.m */,
+				FE84427D1BB8631C00914189 /* Art */,
+				FE8442791BB862F300914189 /* Helpers */,
+				FE8442751BB862AB00914189 /* Views */,
+				FEE6A5811BB7C692004CC6B2 /* centipede.jpg */,
+				FEE6A5821BB7C692004CC6B2 /* centipedeThumb.jpg */,
+				FEE6A5831BB7C692004CC6B2 /* ladybug.jpg */,
+				FEE6A5841BB7C692004CC6B2 /* ladybugThumb.jpg */,
+				FEE6A5851BB7C692004CC6B2 /* potatoBug.jpg */,
+				FEE6A5861BB7C692004CC6B2 /* potatoBugThumb.jpg */,
+				FEE6A5871BB7C692004CC6B2 /* wolfSpider.jpg */,
+				FEE6A5881BB7C692004CC6B2 /* wolfSpiderThumb.jpg */,
+				FEE6A57A1BB7BB0B004CC6B2 /* Model */,
+				FEE6A5791BB7BAD1004CC6B2 /* GUI */,
 				FE8D45D81BB74D2800E70618 /* Assets.xcassets */,
 				FE8D45DA1BB74D2800E70618 /* MainMenu.xib */,
 				FE8D45DD1BB74D2800E70618 /* Info.plist */,
@@ -130,6 +208,29 @@
 				FE8D45F31BB74D2800E70618 /* Info.plist */,
 			);
 			path = ScaryBugsMacOCUITests;
+			sourceTree = "<group>";
+		};
+		FEE6A5791BB7BAD1004CC6B2 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				FE8D45FF1BB7518800E70618 /* MasterViewController.h */,
+				FE8D46001BB7518800E70618 /* MasterViewController.m */,
+				FE8D46011BB7518800E70618 /* MasterViewController.xib */,
+				FE8D45D21BB74D2800E70618 /* AppDelegate.h */,
+				FE8D45D31BB74D2800E70618 /* AppDelegate.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		FEE6A57A1BB7BB0B004CC6B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEE6A57B1BB7BCF7004CC6B2 /* ScaryBugData.h */,
+				FEE6A57C1BB7BCF7004CC6B2 /* ScaryBugData.m */,
+				FEE6A57E1BB7BDBA004CC6B2 /* ScaryBugDoc.h */,
+				FEE6A57F1BB7BDBA004CC6B2 /* ScaryBugDoc.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +337,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE8D45D91BB74D2800E70618 /* Assets.xcassets in Resources */,
+				FE8442811BB8632F00914189 /* shockedface2_empty.png in Resources */,
+				FEE6A58D1BB7C692004CC6B2 /* potatoBug.jpg in Resources */,
+				FEE6A58F1BB7C692004CC6B2 /* wolfSpider.jpg in Resources */,
+				FEE6A5901BB7C692004CC6B2 /* wolfSpiderThumb.jpg in Resources */,
+				FEE6A58C1BB7C692004CC6B2 /* ladybugThumb.jpg in Resources */,
+				FEE6A5891BB7C692004CC6B2 /* centipede.jpg in Resources */,
+				FEE6A58A1BB7C692004CC6B2 /* centipedeThumb.jpg in Resources */,
+				FE8442821BB8632F00914189 /* shockedface2_full.png in Resources */,
 				FE8D45DC1BB74D2800E70618 /* MainMenu.xib in Resources */,
+				FEE6A58E1BB7C692004CC6B2 /* potatoBugThumb.jpg in Resources */,
+				FEE6A58B1BB7C692004CC6B2 /* ladybug.jpg in Resources */,
+				FE8442831BB8632F00914189 /* shockedface2_half.png in Resources */,
+				FE8D46031BB7518800E70618 /* MasterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +374,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE6A5801BB7BDBA004CC6B2 /* ScaryBugDoc.m in Sources */,
 				FE8D45D71BB74D2800E70618 /* main.m in Sources */,
+				FE8D46021BB7518800E70618 /* MasterViewController.m in Sources */,
+				FE8442781BB862DD00914189 /* EDStarRating.m in Sources */,
 				FE8D45D41BB74D2800E70618 /* AppDelegate.m in Sources */,
+				FE84427C1BB8630200914189 /* NSImage+Extras.m in Sources */,
+				FEE6A57D1BB7BCF7004CC6B2 /* ScaryBugData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +601,7 @@
 				FE8D45F81BB74D2800E70618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE8D45F91BB74D2800E70618 /* Build configuration list for PBXNativeTarget "ScaryBugsMacOCTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +610,7 @@
 				FE8D45FB1BB74D2800E70618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE8D45FC1BB74D2800E70618 /* Build configuration list for PBXNativeTarget "ScaryBugsMacOCUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +619,7 @@
 				FE8D45FE1BB74D2800E70618 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

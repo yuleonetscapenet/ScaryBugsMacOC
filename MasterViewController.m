@@ -46,7 +46,8 @@
     self.bugRating.displayMode=EDStarRatingDisplayFull;
     self.bugRating.rating = 0.0;
   // fixedui3
-  // fixedui32    
+  // fixedui32
+  // conf1    
 }
 
 #pragma mark - data source

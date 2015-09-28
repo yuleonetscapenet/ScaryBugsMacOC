@@ -47,7 +47,8 @@
     self.bugRating.rating = 0.0;
   // fixedui3
   // fixedui32
-  // conf1    
+  // conf1
+  // conf2    
 }
 
 #pragma mark - data source

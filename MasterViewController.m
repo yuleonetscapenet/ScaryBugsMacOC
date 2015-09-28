@@ -45,7 +45,8 @@
     self.bugRating.editable=YES;
     self.bugRating.displayMode=EDStarRatingDisplayFull;
     self.bugRating.rating = 0.0;
-    
+  // fixedui3
+  // fixedui32    
 }
 
 #pragma mark - data source

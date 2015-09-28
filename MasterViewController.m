@@ -29,6 +29,7 @@
     // Do view setup here.
 }
 
+
 -(void) loadView
 {
     //call super or else view view will not be displayed
@@ -44,6 +45,7 @@
     self.bugRating.displayMode=EDStarRatingDisplayFull;
     self.bugRating.rating = 0.0;
     
+    //1. change from FixedUI
 }
 
 #pragma mark - data source

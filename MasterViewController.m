@@ -29,6 +29,7 @@
     // Do view setup here.
 }
 
+//only life cycle similar to iOS
 -(void) loadView
 {
     //call super or else view view will not be displayed

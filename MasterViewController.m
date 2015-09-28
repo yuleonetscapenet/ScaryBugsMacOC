@@ -29,6 +29,7 @@
     // Do view setup here.
 }
 
+//hotfix
 //only life cycle similar to iOS ;
 -(void) loadView
 {

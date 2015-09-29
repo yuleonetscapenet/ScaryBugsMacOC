@@ -46,6 +46,7 @@
     self.bugRating.displayMode=EDStarRatingDisplayFull;
     self.bugRating.rating = 0.0;
     //whichone
+    //UI3
 }
 
 #pragma mark - data source

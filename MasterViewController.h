@@ -11,4 +11,5 @@
 @interface MasterViewController : NSViewController
 @property (strong) NSMutableArray  *bugs;
 
+//UI3
 @end

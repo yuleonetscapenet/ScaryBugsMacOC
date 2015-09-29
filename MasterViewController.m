@@ -45,6 +45,7 @@
     self.bugRating.editable=YES;
     self.bugRating.displayMode=EDStarRatingDisplayFull;
     self.bugRating.rating = 0.0;
+    //whichone
 }
 
 #pragma mark - data source
